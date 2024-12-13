@@ -1,7 +1,7 @@
 
 # Store API
 
-This project implements a Web API for managing orders and products in an e-commerce store, built with ASP.NET Core. It follows Domain-Driven Design (DDD) principles, and provides essential functionalities to create, manage, and query orders and products.
+This project implements a Web API for managing orders and products in an e-commerce store, built with ASP.NET Core. It follows Domain-Driven Design (DDD) principles, and provides functionalities to create, manage, and query orders and products.
 
 ## Table of Contents
 - [Objective](#objective)
@@ -15,7 +15,7 @@ This project implements a Web API for managing orders and products in an e-comme
 
 ## Objective
 
-The goal of this project is to create a Web API in ASP.NET Core that allows users to manage orders in an e-commerce store. The API includes essential functionalities such as adding/removing products to/from an order, closing orders, and retrieving orders by their ID.
+The goal of this project is to create a Web API in ASP.NET Core that allows users to manage orders in an e-commerce store. The API includes  functionalities such as adding/removing products to/from an order, closing orders, and retrieving orders by their ID.
 
 ## Implemented Features
 
@@ -71,7 +71,7 @@ The goal of this project is to create a Web API in ASP.NET Core that allows user
 
 ## Testing
 
-To test the API, you can use Swagger UI. Here’s a summary of the steps to test each feature:
+The API can be tested using Swagger UI. It's also possible to run the unit tests in the Store.Tests project. Here’s a summary of the steps to test each feature:
 
 1. **Create an order**:
    - Send a `POST` request to `/orders`.
